@@ -1,0 +1,61 @@
+*{
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-content: center;
+    background: url(https://picsum.photos/1080/1000/);
+    backdrop-filter: blur(14px);
+
+    
+}
+.container{
+    width: 500px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 252, 252);
+    box-shadow: 0 0 25px #222;
+    border: 10px #ffffff;
+}
+.hearder{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 0px 20px ;
+}
+.hearder img{
+    width: 20px;
+    height: 20px;
+}
+.hearder-text{
+    position: absolute;
+   padding: 0px 0px 0px 45px;
+    font-size:xx-small;
+}
+.header-dots{
+    font-size: 3cap;
+
+}
+img{
+    width: 100%;
+    padding: 2% 1% 2% 0%;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7px 17px 7px ;
+}
+
+p{
+    display: flex;
+    padding: 5px;
+}
+
+b{
+    padding: 5px;
+}
